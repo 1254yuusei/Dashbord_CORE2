@@ -27,7 +27,7 @@ dt_days_ago_3 = days_ago_3.strftime('%Y-%m-%d')
 
 
 #ouraアクセストークン
-access_token="QVRKWLEC4P6F7OICXAPUDX5WIVRHANEV"
+access_token="LK4WKRTXEFDPITJX5WK3SNFHGQYIXYLX"
 
 client = oura.client_pandas.OuraClientDataFrame(personal_access_token=access_token)
 
