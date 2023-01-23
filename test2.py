@@ -32,8 +32,8 @@ access_token="LK4WKRTXEFDPITJX5WK3SNFHGQYIXYLX"
 client = oura.client_pandas.OuraClientDataFrame(personal_access_token=access_token)
 
 #期間を指定（全期間が欲しい場合はこのままでOKです。）
-start_text = dt_yd
-end_text = dt_now
+start_text = '2023-01-20'
+end_text = '2023-01-20'
 
 start_text_yd = dt_dby
 end_text_yd = dt_yd
